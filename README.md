@@ -1,16 +1,16 @@
 # The Moon Gets One Star
 
-[![make.fun bounty](https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5)
-[![Rank](https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/gemarizkyu/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5-entry/rank.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5)
-[![Reward](https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/reward.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5)
+[![make.fun · u-eager-stork-81-9647-the-moon-gets-one-star-768236e5](https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5)
+[![rank](https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/gemarizkyu/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5-entry/rank.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5)
+[![reward](https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/gemarizkyu/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5-entry/reward.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5)
 
-A one-star review for the Moon — written as my entry for the make.fun bounty. It has been following me around for billions of years, so it earned the rating.
+A one-star review of the Moon, written as if it were a listing you could rate.
 
 ## The entry
 
 > One star. Follows me home every night and just stares. 4.5 billion years, never blinked once. Would not recommend.
 
-114 characters, exactly as submitted.
+114 characters. One star, zero regrets — except the staring.
 
 ## How to run
 
@@ -18,19 +18,19 @@ A one-star review for the Moon — written as my entry for the make.fun bounty. 
 python3 main.py
 ```
 
-That writes the review to `/output/entry.txt`. To put the file somewhere else, set `OUTPUT_DIR`:
+The script writes the review to `/output/entry.txt`. To send it somewhere else instead, set the `OUTPUT_DIR` environment variable before running:
 
 ```bash
-OUTPUT_DIR=/tmp/out python3 main.py
+OUTPUT_DIR=/tmp/my-output python3 main.py
 ```
 
-## Deterministic
+## Deterministic by design
 
-The output is always the same fixed line. No clock, no randomness, no network calls, and no model involved — run it as many times as you like and the file comes out identical.
+The output is always the same fixed line. No clock, no randomness, no network calls, no model — run it ten times and you will get the same review ten times.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE) for the full text.
 
 SPDX-License-Identifier: MIT
 
